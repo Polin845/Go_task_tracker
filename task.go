@@ -5,13 +5,11 @@ import (
 )
 
 type Task struct{
-	id int
-	title string
-	description string
-	add_date time.Time
-	deadline time.Time
-	done bool
+	Id int
+	Title string
+	Description string
+	Create_date time.Time
+	Deadline time.Time
+	Done bool
 
 }
-
-func main()
